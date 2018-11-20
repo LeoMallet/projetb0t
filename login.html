@@ -31,28 +31,26 @@
     <!-- Carton de connexion -->
       <div class="row"> <!--Ca créé une 'ligne' divisée en 12 colonnes-->
         <div class="col-md-6 offset-md-3"> <!-- Dans cette ligne, je crée un bloc de 6 unités (donc la moitié) qui commence 3 unité plus loin (donc au milieu)-->
-          <form>
-            <div class="form-group">
-              <label for="login">Login</label>
-              <input type="text" class="form-control" id="login" aria-describedby="loginHelp" placeholder="Entrer votre login">
-              <small id="loginHelp" class="form-text text-muted">Vous seul connaissez la puissance des Waifus</small>
-            </div>
-            <div class="form-group">
-              <label for="password">Mot de passe</label>
-              <input type="password" class="form-control" id="password" placeholder="Password">
-            </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input">
-              <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
-            </div>
+          <div class="form-group">
+            <label for="login">Login</label>
+            <input type="text" class="form-control" id="login" aria-describedby="loginHelp" placeholder="Entrer votre login">
+            <small id="loginHelp" class="form-text text-muted">Vous seul connaissez la puissance des Waifus</small>
+          </div>
+          <div class="form-group">
+            <label for="password">Mot de passe</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
+          </div>
 
-            <!--Je crée une div (ca prend toute la alrgeur de base) et je lui donne la classe "text-center" qui applique le style "text-align:cente" (c'est une classe de bootstrap, un outil)-->
+          <!--Je crée une div (ca prend toute la alrgeur de base) et je lui donne la classe "text-center" qui applique le style "text-align:cente" (c'est une classe de bootstrap, un outil)-->
 
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary" id="connexion" value="connect">Connexion</button>
-            </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" id="connexion" value="connect">Connexion</button>
+          </div>
 
-          </form>
         </div> 
       </div>
     </div>
