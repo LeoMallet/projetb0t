@@ -1,0 +1,22 @@
+.cadre {
+  padding: 2em 0em;
+  border: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 70px rgba(0, 0, 0, 0.5);
+  margin-top: 5em;
+  background: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+#logoTitre {
+  text-align: center;
+  position: relative;
+}
+
+#connexion {
+  text-align: center;
+}
+
+
