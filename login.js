@@ -30,7 +30,7 @@ $('#connexion').on('click', () => {
             sessionStorage.setItem("password", mdp);
 
         }
-        window.location.href = "hub.html";
+        window.location.href = "deplacement.html";
     }
     else {
         $('.alert.alert-danger').removeClass('d-none');

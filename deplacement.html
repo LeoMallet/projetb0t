@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css" media="all" />
+    <title>Bouge ton b0t</title>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+
+  
+  <body>
+  <div class="col-md-4 offset-md-4" id="box">
+    <div class="cadre">
+      
+    <!-- Logo  -->
+    <div class="row" id="logoTitre">
+      <div class="col-md-6 offset-md-3" >
+        <img src="pics/waifu.gif" alt="animated" name="waifu"/>
+        <h1>Waifu Society</h1>
+      </div>
+    </div>  
+    <!-- Carton de connexion -->
+      <div class="row"> <!--Ca créé une 'ligne' divisée en 12 colonnes-->
+        <div class="col-md-6 offset-md-3"> <!-- Dans cette ligne, je crée un bloc de 6 unités (donc la moitié) qui commence 3 unité plus loin (donc au milieu)-->
+          <div class="form-group">
+            <label for="comment">Channel où le b0t doit bouger</label>
+            <input type="text" class="form-control" id="channeldescription"></input>
+            <small id="channeldescriptionHelp" class="form-text text-muted">Définissez qui vous voulez embêtter</small> <!-- J'adore, +2 points -->
+          </div>
+      
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" id="move" value="move">Déplacement!</button>
+          </div>
+
+        </div> 
+      </div>
+    </div>
+  </div> 
+  <script src="./deplacement.js"></script>
+  </body>
+</html>

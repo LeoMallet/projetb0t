@@ -14,3 +14,4 @@ et petite couleur de fond
      - quand tu arrives sur la page de login, si tu es déjà connecté, ça te redirige vers l'autre page automatiquement
      - quand tu es sur une autre page (où il faut être connecté), ça test si l'utilisateur est bien connecté. Si ce n'est pas le cas => redirection vers la page de login.
 
+5)Déplacement du b0t: faire un champs texte et un bouton 'Join'
