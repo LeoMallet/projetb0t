@@ -41,11 +41,14 @@
             <input type="password" class="form-control" id="password" placeholder="Password">
           </div>
           <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input">
+            <input type="checkbox" class="form-check-input" id="remember">
             <label class="form-check-label" for="exampleCheck1">Se souvenir de moi</label>
           </div>
 
-          <!--Je crée une div (ca prend toute la alrgeur de base) et je lui donne la classe "text-center" qui applique le style "text-align:cente" (c'est une classe de bootstrap, un outil)-->
+          <!-- La classe .d-none cache un element -->
+          <div class="alert alert-danger d-none" role="alert">
+            NAN C'EST PAS CA :D
+          </div>
 
           <div class="text-center">
             <button type="submit" class="btn btn-primary" id="connexion" value="connect">Connexion</button>

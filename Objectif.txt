@@ -1,29 +1,16 @@
-1) Une page de login/mdp pour éviter les petits cons
+1) Une page de login/mdp pour Ã©viter les petits cons
 2) une page avec plusieurs menu (genre "parler", "voir les stats" etc)
 
 1) mettre en place ton environnement de dev *
-2) créer la page de login avec un peu de swag (merci bootstrap)
+2) crÃ©er la page de login avec un peu de swag (merci bootstrap)
 2)a) Tu peux centrer le titre
 Diminuder la largeur du formulaire de login
 Et ajouter un border et un box-shadow pour faire joli
 et petite couleur de fond
 
 
-3) ajouter du JS pour gérer le bouton "Se connecter" (affichage d'une erreur en cas de mauvais login/mdp)
-4) gestion du "mode connecté" => quand le gars est connecté, il faut stocker l'info (localStorage ou cookie) pour que:
-     - quand tu arrives sur la page de login, si tu es déjà connecté, ça te redirige vers l'autre page automatiquement
-     - quand tu es sur une autre page (où il faut être connecté), ça test si l'utilisateur est bien connecté. Si ce n'est pas le cas => redirection vers la page de login.
+3) ajouter du JS pour gÃ©rer le bouton "Se connecter" (affichage d'une erreur en cas de mauvais login/mdp)
+4) gestion du "mode connectÃ©" => quand le gars est connectÃ©, il faut stocker l'info (localStorage ou cookie) pour que:
+     - quand tu arrives sur la page de login, si tu es dÃ©jÃ  connectÃ©, Ã§a te redirige vers l'autre page automatiquement
+     - quand tu es sur une autre page (oÃ¹ il faut Ãªtre connectÃ©), Ã§a test si l'utilisateur est bien connectÃ©. Si ce n'est pas le cas => redirection vers la page de login.
 
-
-<div class="col-md-4 offset-md-4">
-
-            <div class="cadre">
-
-                <!-- Logo  -->
-                <div class="logo">
-                    <!--<img src="pics/waifu.gif" alt="animated" name="waifu" style="width: 300px;"/>-->
-                    <h1>Waifu Society</h1>
-                </div>
-
-                <form>
-                    <div class="form-group">
